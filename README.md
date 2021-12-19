@@ -10,4 +10,5 @@
 * file_to_commit - файл, который меняю, чтобы потестить, что происходит в actions при очередном коммите
 
 Бэйдж с текущим статусом тестов:
+
 [![GitHub Actions Test](https://github.com/nikdiknik/techprog_tz_3/actions/workflows/github-test.yml/badge.svg)](https://github.com/nikdiknik/techprog_tz_3/actions/workflows/github-test.yml)
