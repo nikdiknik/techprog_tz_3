@@ -37,7 +37,7 @@ class TestingTime(unittest.TestCase):
                 start_time = time.time()
                 main_func('testing_time_data.txt')
                 end_time = time.time()
-                self.assertTrue(end_time - start_time < 0.1, "Превышен лимит времени работы программы")
+                self.assertTrue(end_time - start_time < 0.5, "Превышен лимит времени работы программы")
 
 
 class TestingCustom1(unittest.TestCase):
