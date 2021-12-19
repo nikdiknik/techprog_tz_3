@@ -1,5 +1,7 @@
 name: GitHub Actions Test
 on: [push]
+  workflow_dispatch:
+    branches: [master]
 jobs:
   build:
     runs-on: ubuntu-latest
